@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+div {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	line-height: 30px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+h1 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #C0C;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:hover {
+	color: #FFF;
+}
+a:active {
+	color: #FFF;
+}
+#apDiv1 {
+	position: absolute;
+	width: 1200px;
+	height: 155px;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.8);
+	left: 0px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 358px;
+	height: 154px;
+	z-index: 2;
+	background-image: url(Imagenes/Logo.png);
+	top: 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#apDiv3 {
+	position: absolute;
+	width: 165px;
+	height: 625px;
+	z-index: 3;
+	left: 1201px;
+	top: 0px;
+	background-color: #CC66FF;
+}
+#apDiv4 {
+	position: absolute;
+	width: 166px;
+	height: 68px;
+	z-index: 1;
+	background-image: url(Imagenes/LogoMini.png);
+	background-repeat: no-repeat;
+	left: -1px;
+	top: 47px;
+	background-position: center center;
+	background-color: rgba(255,255,255,0.8);
+}
+#apDiv5 {
+	position: absolute;
+	width: 154px;
+	height: 33px;
+	z-index: 2;
+	top: 165px;
+	background-image: url(Imagenes/btnBlack.png);
+	background-repeat: no-repeat;
+	left: 6px;
+	text-align: center;
+}
+#apDiv6 {
+	position: absolute;
+	width: 154px;
+	height: 33px;
+	z-index: 3;
+	left: 6px;
+	top: 230px;
+	background-image: url(Imagenes/btnBlue.png);
+	background-repeat: no-repeat;
+}
+#apDiv7 {
+	position: absolute;
+	width: 154px;
+	height: 33px;
+	z-index: 4;
+	left: 8px;
+	top: 295px;
+	background-image: url(Imagenes/btnRed.png);
+	background-repeat: no-repeat;
+}
+#apDiv8 {
+	position: absolute;
+	width: 154px;
+	height: 231px;
+	z-index: 5;
+	top: 369px;
+	left: 6px;
+	background-image: url(Imagenes/cosmetics.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
